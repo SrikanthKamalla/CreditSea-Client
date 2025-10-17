@@ -55,11 +55,11 @@ axiosBaseInstance.interceptors.response.use(
 
     if (error.response?.status === 401 && !isAuthRoute) {
       console.log("Unauthorized access, redirecting to login");
-      // removeAuthToken();
+      removeAuthToken();
       // Use setTimeout to avoid interrupting the current error handling
-      // setTimeout(() => {
-      //   window.location.href = "/login";
-      // }, 100);
+      setTimeout(() => {
+        window.location.href = "/login";
+      }, 100);
     }
 
     return Promise.reject(error);

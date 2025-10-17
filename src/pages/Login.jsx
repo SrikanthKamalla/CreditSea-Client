@@ -135,14 +135,6 @@ const Login = () => {
                 {isLoading ? "Signing in..." : "Sign in"}
               </button>
             </div>
-
-            {/* Debug Info */}
-            <div className="mt-4 p-3 bg-gray-100 rounded-md">
-              <p className="text-xs text-gray-600">
-                <strong>Debug Info:</strong> Check browser console for detailed
-                API requests and responses.
-              </p>
-            </div>
           </form>
         </div>
       </div>
