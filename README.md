@@ -2,6 +2,8 @@
 
 Frontend client application for the CreditSea project.
 
+Server: https://github.com/SrikanthKamalla/CreditSea-server
+
 ## Table of contents
 
 - About
